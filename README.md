@@ -17,7 +17,7 @@ npm install @anasakil/storage-cache-anas
  *
  * ### Storing Different Data Types
  * ```javascript
- * const StorageCache = require('@yourusername/storage-cache');
+ * const StorageCache = require('@anasakil/storage-cache-anas');
  * const cache = new StorageCache({ persist: './data/cache.json' });
  *
  * (async () => {
@@ -49,7 +49,7 @@ npm install @anasakil/storage-cache-anas
  *
  * ### Persistence Across Restarts
  * ```javascript
- * const StorageCache = require('@yourusername/storage-cache');
+ * const StorageCache = require('@anasakil/storage-cache-anas');
  *
  * (async () => {
  *   const cache = new StorageCache({ persist: './data/cache.json' });
