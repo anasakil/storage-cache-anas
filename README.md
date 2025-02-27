@@ -94,6 +94,3 @@ npm install @anasakil/storage-cache-anas
  * - **Non-JSON Types:** Functions, `undefined`, `Map`, `Set`, etc., are stored in memory but not persisted to disk (a warning is logged when attempting to persist these).
  * - **TTL:** Expired entries are automatically removed from both memory and disk.
  *
- * ## License
- * MIT
- */
